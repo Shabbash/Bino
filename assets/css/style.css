@@ -204,7 +204,7 @@ h2 {
 }
 
 .home .carousel-caption {
-    bottom: 22%;
+    bottom: 14%;
 }
 
 .home .carousel-caption span.head {
@@ -1178,19 +1178,21 @@ h2 {
 
 .blog .post .post-img {
     padding: 0;
-    height: 385px;
+    height: 340px;
+    overflow: hidden;
 }
 
 .blog .post .post-img img {
     max-width: 100%;
+    object-fit: contain;
 }
 
 .blog .post .post-body {
     text-align: left;
-    padding: 40px 35px;
+    padding: 20px 35px;
     background: #e74e3e;
     color: #fff;
-    height: 385px;
+    height: 340px;
 }
 
 .blog .post .post-body span {
@@ -1212,7 +1214,7 @@ h2 {
 }
 
 .blog .post .post-body p {
-    padding: 45px 0;
+    padding: 30px 0;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 13px;
